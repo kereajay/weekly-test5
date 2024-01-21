@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #one {
+            display: flex;
+            justify-content: space-between;
+            background: #333;
+            color: white;
+            height: 6vh;
+            width: 100vw;
+            position: fixed;
+            padding-top: 2%;
+            z-index: 5;
+            margin-bottom: 20%;
+
+        }
+
+        #one ul {
+            display: flex;
+            flex-direction: row;
+            margin-right: 15vw;
+
+        }
+
+        #one ul li {
+            padding-right: 30px;
+
+
+        }
+
+        #one ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #one h2 {
+            margin-left: 10vw;
+        }
+
+        #two {
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+            background-size: cover;
+            background-position: center 65%;
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            text-align: center;
+            filter: blur(50%);
+            background-attachment: fixed;
+
+        }
+
+        #two h1 {
+            font-size: 1.5cm;
+
+        }
+
+        #two p {
+            font-size: x-large;
+            /* padding-top: 20px; */
+        }
+
+        #two button {
+            height: 50px;
+            width: 170px;
+            /* align-self:center ; */
+            margin-top: 60px;
+            margin-left: 670px;
+            /* transition: 0.4s ease; */
+        }
+
+        #two button a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #two button:hover {
+            opacity: 0.2;
+            color: aliceblue;
+
+        }
+
+        #four {
+
+            text-align: center;
+        }
+
+        #three {
+            /* height: 80vh;
+            width: 80vw; */
+            /* display: flex; */
+            /* flex-direction: column; */
+            margin-top: 5%;
+            z-index: 10;
+
+
+        }
+
+        #five {
+            /* height: 80vh; */
+            width: 80vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 340px 340px;
+            margin-left: 10%;
+        }
+
+        #five div {
+            margin-right: 30px;
+            margin-top: 30px;
+        }
+
+        #threea {
+            text-align: center;
+            font-size: larger;
+            background-color: rgb(243, 243, 243);
+
+        }
+
+        #threea img {
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+
+            margin-top: 30px;
+
+        }
+
+        #threea p {
+            padding-top: 20px;
+
+        }
+        #six{
+            width: 80vw;
+            margin-left: 10%;
+        }
+        #sixa{
+            margin-top: 5%;
+            text-align: center;
+
+        }
+        #sixb{
+            margin-top:3% ;
+        }
+        #sixb p{
+            font-size: large;
+            margin-top: 1%;
+        }
+        #sixc{
+            margin-top:3% ;
+            font-size: large;
+        }
+        #sixc ul{
+            margin-top: 1%;
+        }
+        #seven{
+            width: 80vw;
+            margin-left: 10%;
+            
+            margin-top: 4%;
+        }
+        #sevena{
+            text-align: center;
+        }
+        #sevena p{
+            font-size: large;
+        }
+        #sevenb{
+            width: 80vw;
+            height: 50vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 500px;
+            /* justify-content: space-between; */
+            margin-top: 5%;
+        }
+        #eight{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 5%;
+        }
+        .material-icons{
+            color: grey;
+        }
+        #name{
+            height: 40px;
+            width: 500px;
+            font-size: large;
+            padding-left: 5px;
+        }
+        #email{
+            height: 40px;
+            width: 500px;
+            margin-top: 20px;
+            font-size: large;
+            padding-left: 5px;
+        }
+        #area{
+            margin-top: 20px;  
+            font-size: large;
+            padding-left: 5px;
+        }
+       #sevenb button{
+            background-color: #333;
+            color:white ;
+            height: 50px;
+            width: 140px;
+            border-radius: 10px;
+            margin-top: 20px;  
+        }
+        </style>
+</head>
+
+<body>
+
+    <div id="one">
+        <h2>LOGO</h2>
+        <nav>
+            <ul type="none">
+                <li><a href="#">Home</a></li>
+                <li><a href="#three">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#six">About Us</a></li>
+                <li><a href="#seven">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="two">
+        <h1>Camping Gear and Essentials</h1>
+        <p>Discover top-quality camping gear for unforgettable outdoor adventures.
+            <br>
+            Gear up and make lasting memories.
+        </p>
+        <button class="ourservices"><a href="#three">OUR SERVICES</a></button>
+        <!-- <a href="#three"></a> -->
+    </div>
+    <br>
+    <div id="three">
+        <div id="four">
+
+            <h1>Our Services</h1>
+            <p>Explore our wide range of camping gear services.</p>
+        </div>
+        <div id="five">
+            <div id="threea">
+                <img src="https://media.timeout.com/images/105658195/image.jpg" alt="">
+                <br>
+                <p><strong>Tents</strong><br>
+                    Experience comfort and protection <br>with our high-quality camping tents</p>
+            </div>
+            <div id="threea">
+                <img src="https://media.timeout.com/images/105658195/image.jpg" alt="">
+                <br>
+                <p><strong>Sleeping Bags</strong><br>
+                    Stay cozy and warm during your <br>camping trips with our premium <br>sleeping bags.</p>
+            </div>
+            <div id="threea">
+                <img src="https://media.timeout.com/images/105658195/image.jpg" alt="">
+                <br>
+                <p><strong>Camp Stoves</strong><br>
+                    Cook delicious meals in the great <br>outdoors with our reliable camp <br>stoves.</p>
+            </div>
+            <div id="threea">
+                <img src="https://media.timeout.com/images/105658195/image.jpg" alt="">
+                <br>
+                <p><strong>Backpacks</strong><br>
+                    Carry your essentials comfortably <br>with our durable and functional <br>camping backpacks.</p>
+            </div>
+            <div id="threea">
+                <img src="https://media.timeout.com/images/105658195/image.jpg" alt="">
+                <br>
+                <p><strong>Camp Chairs</strong><br>
+                    Relax and unwind in style with our <br>comfortable and portable camping <br>chairs.</p>
+            </div>
+            <div id="threea">
+                <img src="https://media.timeout.com/images/105658195/image.jpg" alt="">
+                <br>
+                <p><strong>Camp Lights</strong><br>
+                    Illuminate your campsite with our<br>reliable and energy-efficient <br>camping lights.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid" id="six">
+        <div id="sixa">
+            <h1>About us</h1>
+            <p>Discover our story in providing camping services.</p>
+        </div>
+        <div id="sixb">
+            <h3>Our Story</h3>
+            <p>Experience the excellence of our camping gear and services, where we have been offering high-quality camping essentials and gear for outdoor <br> enthusiasts for over a decade. Our commitment to quality and customer satisfaction ensures that every adventurer can rely on us for their <br> camping needs.</p>
+        </div>
+        <div id="sixb">
+            <h3>Our Mission</h3>
+            <p>
+                At Camping Gear Experts, our mission is to equip outdoor enthusiasts with top-notch camping gear and essentials that enhance their outdoor <br> experiences. We strive to provide reliable, durable, and innovative products that contribute to memorable adventures and lasting memories.</p>
+        </div>
+        <div id="sixb">
+            <h3>Our Vision</h3>
+            <p>
+                Our vision is to become the go-to destination for camping enthusiasts, known for our extensive selection of premium camping gear and exceptional customer service. <br>We aspire to inspire and enable people to embrace the beauty of nature and create unforgettable camping  experiences.</p>
+        </div>
+        <div id="sixc">
+            <h3>Our Team</h3>
+            <ul>
+                <li>John Doe - Founder and CEO
+                   
+                    
+                    </li>
+                <li> Jane Smith - Gear Specialist</li>
+                <li>Mark Johnson - Customer Representative</li>
+                <li>Sarah Brown - Operations Manager</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div id="seven">
+        <div id="sevena">
+            <h1>Contact Us</h1>
+            <p>Reach out to us for any inquiries or feedback.</p>
+        </div>
+        <div id="sevenb">
+            <div id="sevenb1" >
+                <div id="eight">
+                    <i class="material-icons">location_on</i>
+                    <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                </div>
+                <div id="eight">
+                    <i class="material-icons">mail</i>
+                    <p> info@campinggearexperts.com</p>
+                </div>
+                <div id="eight">
+                    <i class="material-icons">call</i>
+                    <p> (123) 456-7890</p>
+                </div>
+                <div id="eight">
+                    <i class="material-icons">schedule</i>
+                    <p>  Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </div>
+                <div id="eight">
+                    <i class="material-icons">schedule</i>
+                    <p>  Saturday: 10:00 AM - 3:00 PM</p>
+                </div>
+                <div id="eight">
+                    <i class="material-icons">schedule</i>
+                    <p>  Sunday: Closed</p>
+                </div>
+                <div id="eight">
+                    <i class="material-icons">language</i>
+                    <p>  www.codingnepalweb.com</p>
+                </div>
+           
+            </div>
+            <div id="sevenb1" >
+            <form action="">
+                <input type="text" placeholder="Name*" id="name">
+                <br>
+                <input type="text" placeholder="Email*" id="email">
+                <br>
+                <textarea name="" id="area" cols="55" rows="10" placeholder="Message*"></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+            </form></div>
+        </div>
+    </div>
+</body>
+
+</html>
